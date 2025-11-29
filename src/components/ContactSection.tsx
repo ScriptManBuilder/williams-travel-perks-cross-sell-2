@@ -146,7 +146,7 @@ const ContactSection: React.FC = () => {
                 Or reach us directly at <span style={{ fontWeight: 600, userSelect: 'none', pointerEvents: 'none' }}>{process.env.REACT_APP_EMAIL_SUPPORT}</span>
                 <br />
                 <br />
-                or call 
+                or call {' '}
                 <InfoLink href={`tel:${process.env.REACT_APP_PHONE_NUMBER?.replace(/\s+/g, '')}`}>
                   {process.env.REACT_APP_PHONE_DISPLAY}
                 </InfoLink>
