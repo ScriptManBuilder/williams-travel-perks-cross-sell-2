@@ -164,12 +164,12 @@ const SupportPage: React.FC = () => {
                 </svg>
                 Email Travel Support
               </ActionButton>
-              <ActionButton onClick={handleContactClick}>
+              {/* <ActionButton onClick={handleContactClick}>
                 <svg viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
                 </svg>
                 Chat with Concierge
-              </ActionButton>
+              </ActionButton> */}
               <ActionButton onClick={handleContactClick}>
                 <svg viewBox="0 0 24 24" fill="currentColor">
                   <path d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"/>
