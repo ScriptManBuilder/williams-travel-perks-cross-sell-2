@@ -68,7 +68,7 @@ const Header: React.FC = () => {
             <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 18c-3.86-.96-7-5.17-7-9V8.33L12 4.5l7 3.83V11c0 3.83-3.14 8.04-7 9z"/>
             <path d="M10.5 13.5l-2-2-1.5 1.5 3.5 3.5 6-6-1.5-1.5z"/>
           </svg>
-          {process.env.REACT_APP_COMPANY_NAME?.split(' Inc.')[0] || 'Williams Travel Perks'}
+          {process.env.REACT_APP_BRAND_NAME || 'Voyenza'}
         </Logo>
         <NavLinks>
           <NavLink href="#features" onClick={(e) => handleNavClick(e, '#features')}>Features</NavLink>

@@ -18,7 +18,8 @@ import {
 } from '../styles/Footer.styles';
 
 const Footer: React.FC = () => {
-  const companyName = process.env.REACT_APP_COMPANY_NAME || 'Williams Travel Perks Inc.';
+  const brandName = process.env.REACT_APP_BRAND_NAME || 'Voyenza';
+  const companyName = process.env.REACT_APP_COMPANY_NAME || 'The Williams Collection Inc.';
   const companyAddress = process.env.REACT_APP_COMPANY_ADDRESS || 'E 2ND ST 5830 Casper WY US 82609';
   const companyPhone = process.env.REACT_APP_PHONE_DISPLAY || '+1 517-258-3818';
   const supportEmail = process.env.REACT_APP_EMAIL_SUPPORT || 'support@williamstravelsavings.com';
@@ -46,7 +47,7 @@ const Footer: React.FC = () => {
                 <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 18c-3.86-.96-7-5.17-7-9V8.33L12 4.5l7 3.83V11c0 3.83-3.14 8.04-7 9z"/>
                 <path d="M10.5 13.5l-2-2-1.5 1.5 3.5 3.5 6-6-1.5-1.5z"/>
               </svg>
-              {companyName.split(' Inc.')[0]}
+              {brandName}
             </FooterLogo>
             <CompanyInfo>
               <p>{companyName}</p>
