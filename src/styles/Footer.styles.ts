@@ -261,14 +261,17 @@ export const ContactLabel = styled.div`
 
 export const ContactValue = styled.a`
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-weight: 500;
   transition: all 0.2s ease;
-  word-break: break-all;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.4;
 
   svg {
     width: 15px;
